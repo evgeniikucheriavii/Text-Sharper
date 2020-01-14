@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Text Sharper</title>
+		<meta charset="utf-8">
+		<meta lang="RU">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="HandheldFriendly" content="true"/>
+		<link rel="stylesheet" type="text/css" href="sharp.css">
+	</head>
+	<body>
+
+		<div class="wrapper">
+			<div class="cell">
+				<div class="cell__content">
+					<div class="form">
+						<div class="form__content">
+							<h1 class="form__h1">Text Sharper</h1>
+							<textarea class="form__textarea" id="text"></textarea><br>
+							<button class="form__button" id="btn">Проанализировать</button>
+							<div class="loading"><div class="loading__bar" id="bar"></div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal modal_hidden" id="result">
+			<div class="cell">
+				<div class="cell__content">
+					<div class="result">
+						<div class="result__content">
+							<img src="Sharp.png" alt="Чётко" class="result__img">
+							<p class="result__text">Чётко!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="sharp.js"></script>
+	</body>
+</html>
