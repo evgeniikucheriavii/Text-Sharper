@@ -83,6 +83,11 @@ body, html
 	font-weight: bold;
 }
 
+.result__img
+{
+	max-width: 90%;
+}
+
 .modal
 {
 	position: absolute;
